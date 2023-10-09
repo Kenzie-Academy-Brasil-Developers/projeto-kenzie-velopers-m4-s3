@@ -1,4 +1,4 @@
-CREATE TYPE OS AS ENUM ('Windows', 'Linux', 'MacOS');
+CREATE TYPE "OS" AS ENUM ('Windows', 'Linux', 'MacOS');
 
 CREATE TABLE IF NOT EXISTS "developers"(
     "id" SERIAL PRIMARY KEY,
